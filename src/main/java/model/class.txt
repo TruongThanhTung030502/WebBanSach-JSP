@@ -1,0 +1,71 @@
+		Sách:
+		+mã
+		+Tên sách
+		+ Tên tác giả
+		+Năm xuất bản
+		+Giá Nhập
+		+Giá Gốc
+		+Giá Bán
+		+Số lượng
+		+Thể Loại
+		+Ngôn Ngữ
+		+Mô Tả
+
+	   -Tác giả:
+	   +Mã
+	   +Họ và tên
+	   +Ngày Sinh
+	   +Tiếu sử
+   
+  
+	  
+	   -Thể loại
+	   +Tên thể loại
+	   +Mã
+	   
+   
+		  - Khách Hàng :
+		  +Mã Khách hàng
+		  +Tên đăng nhập
+		  +Mật kHẩu
+		  +Giới Tính
+		  +Họ Và Tên
+		  +Địa chỉ 
+		  +Địa chỉ nhận hàng
+		  +Địa chỉ mua hàng
+		  +Ngày Sinh
+		  +Sdt
+		  +Email
+		  +Đăng ký nhận bản tin email  
+  
+
+    
+		   
+		   --Đơn Hàng
+		   +Mã Đơn Hàng
+		   +Khách Hàng
+		   +Địa chỉ người mua
+		   +Địa chỉ nhận hàng
+		   +Trạng Tháu:Mới tạo,đang xử lý,đang giao hàng,đã giao thành công..
+		   +Hình thức thánh toán
+		   +Trạng thía thanh toán
+		   +Số tiền đã thanh toán
+		   +Số tiền còn thiếu
+		   +Ngày đặt hàng
+           +Ngày giao hàng
+   
+			 - Chi tiết đơn hàng:
+			 +Mã chi tiết đơn hàng
+			 +Đơn Hàng
+			 +Mã sách
+			 +Số lượng
+			 +Gía bìa
+			 +Giảm Giá
+			 +Giá bán
+			  +Thuế VAT
+			 +Tổng tiền
+
+
+
+   
+   

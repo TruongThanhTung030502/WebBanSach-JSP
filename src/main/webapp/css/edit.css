@@ -1,0 +1,74 @@
+/* CSS cho modal */
+.modal {
+    display: none; /* Ẩn modal mặc định */
+    position: fixed; /* Kiểu hiển thị cố định */
+    z-index: 1; /* Thứ tự hiển thị trên cùng */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto; /* Tạo thanh cuộn khi cần */
+    background-color: rgb(0,0,0); /* Màu nền đen */
+    background-color: rgba(0,0,0,0.4); /* Màu nền đen với độ trong suốt */
+}
+
+/* CSS cho nội dung modal */
+.modal-content {
+    background-color: #fefefe;
+    margin: 10% auto; /* Canh giữa và cách lề */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Chiều rộng của modal */
+}
+
+/* CSS cho nút close */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* CSS cho input và select */
+.form-control {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.form-select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* CSS cho button */
+.btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: auto;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
